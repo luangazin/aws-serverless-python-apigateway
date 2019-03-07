@@ -1,0 +1,10 @@
+#IDE
+.vscode/
+
+#node
+package-lock.json
+node_modules/
+
+#python
+Pipfile.lock
+*.pyc
