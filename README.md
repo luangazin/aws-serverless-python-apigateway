@@ -6,7 +6,7 @@
  - Node(npm)
  - Python 3.6(pip3)
  - pipenv - sudo pip3 install pipenv
- - serverless - npm i serverless
+ - serverless - npm i -g serverless
 ```sh
  $ ./setup.sh
 ```
