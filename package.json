@@ -1,5 +1,5 @@
 {
-  "name": "galu-api",
+  "name": "aws-serverless-python-apigateway",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
