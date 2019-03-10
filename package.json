@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "./node_modules/.bin/serverless offline -s dev",
+    "debug": "export SLS_DEBUG=* && node --debug ./node_modules/.bin/serverless offline -s dev",
+    "test": "mocha"
   },
   "keywords": [],
   "author": "",
