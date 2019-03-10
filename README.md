@@ -11,6 +11,7 @@
  $ ./setup.sh
 ```
 setup.sh will install npm and python  dependencies. 
+
 **Running local for test api:**
 ```sh
  $ serverless offline
