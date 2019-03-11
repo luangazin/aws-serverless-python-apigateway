@@ -4,15 +4,20 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [{
-        "name": "Debug",
-        "type": "node",
+        "name": "Python: Flask",
+        "type": "python",
         "request": "launch",
-        "cwd": "${workspaceRoot}",
-        "runtimeExecutable": "npm",
-        "runtimeArgs": [
-            "run-script",
-            "debug"
+        "pythonPath": "${config:python.pythonPath}",
+        "module": "flask",
+        "env": {
+            "FLASK_APP": "app.py"
+        },
+        "args": [
+            "run",
+            "--no-debugger",
+            "--no-reload",
+            "--port=3000"
         ],
-        "port": 9229
+        "jinja": true
     }]
 }

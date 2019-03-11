@@ -3,7 +3,7 @@
 service: serverless-flask
 
 plugins:
-  - serverless-offline
+  - serverless-offline-python
   - serverless-python-requirements
   - serverless-wsgi
 
