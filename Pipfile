@@ -6,7 +6,6 @@ name = "pypi"
 [packages]
 pytz = "*"
 flask = "*"
-werkzeug = "*"
 
 [dev-packages]
 boto3 = "*"
